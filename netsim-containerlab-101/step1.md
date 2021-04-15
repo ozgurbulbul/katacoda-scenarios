@@ -7,4 +7,5 @@
 `sudo bash -c "$(curl -sL https://get-clab.srlinux.dev)"`{{execute}}
 
 Make life easier by enabling auto-completion of shell commands:
+
 `source <(containerlab completion bash)`{{execute}}

@@ -1,6 +1,6 @@
 1. Install netsim: https://netsim-tools.readthedocs.io/en/latest/install.html
 
-`git clone https://github.com/ipspace/netsim-tools/`{{execute}}
+`git clone https://github.com/ipspace/netsim-tools/ && pip3 install -r netsim-tools/requirements.txt`{{execute}}
 
 2. Install Containerlab: https://containerlab.srlinux.dev/install/
 

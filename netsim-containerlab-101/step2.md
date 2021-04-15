@@ -1,14 +1,11 @@
-Create a sample topology:
-`cat > topology.yml << EOF
-provider: clab
-defaults:
-  device: eos
+* Get a sample topology file:
 
-nodes:
-- s1
-- s2
+`wget https://raw.githubusercontent.com/ipspace/netsim-tools/master/examples/containerlab.yml`{{execute}}
 
-links:
-- s1-s2
-EOF
-`{{execute}}
+* Prepare the topology:
+
+`create-topology -t containerlab.yml -p`{{execute}}
+
+* Launch the lab:
+
+`sudo containerlab deploy -t clab.yml`{{execute}}

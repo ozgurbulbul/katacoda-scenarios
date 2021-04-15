@@ -1,6 +1,5 @@
 Create a sample topology:
-```
-cat > topology.yml << EOF
+`cat > topology.yml << EOF
 provider: clab
 defaults:
   device: eos
@@ -12,5 +11,4 @@ nodes:
 links:
 - s1-s2
 EOF
-```
-{{execute}}
+`{{execute}}

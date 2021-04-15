@@ -1,1 +1,3 @@
-In this scenario, you will learn how to deploy your first [Containerlab 🧪](https://containerlab.srlinux.dev/) setup
+Read [the installation instructions](https://containerlab.srlinux.dev/install/) and run the following command to install Containerlab (as root):
+
+`sudo bash -c "$(curl -sL https://get-clab.srlinux.dev)"`{{execute}}

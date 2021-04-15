@@ -12,4 +12,5 @@ nodes:
 links:
 - s1-s2
 EOF
-```{{execute}}
+```
+{{execute}}

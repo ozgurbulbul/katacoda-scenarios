@@ -4,7 +4,7 @@
 
 * Prepare the topology:
 
-`create-topology -t containerlab.yml -p`{{execute}}
+`netsim-tools/create-topology -t containerlab.yml -p`{{execute}}
 
 * Launch the lab:
 

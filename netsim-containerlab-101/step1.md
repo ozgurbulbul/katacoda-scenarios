@@ -6,7 +6,7 @@
 
 `sudo bash -c "$(curl -sL https://get-clab.srlinux.dev)"`{{execute}}
 
-* Get 4GB extra swap space
+* (Optional) get 4GB extra swap space
 
 `mkdir /root/dev; fallocate -l 4G /root/dev/md-0; chmod 600 /root/dev/md-0; mkswap /root/dev/md-0; swapon /root/dev/md-0`{{execute}}
 

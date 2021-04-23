@@ -13,7 +13,5 @@ Create required CONFIG directories in user home:
 Run Docker-compose up:
 `docker-compose up -d`{{ execute }}
 
-Access the web UI at port 8443:
+Access the web UI at port 8443 (note: meetings are unstable, XMPP not reachable):
 https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com
-
-<a href="https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com" target="_blank">Blank target?</a>

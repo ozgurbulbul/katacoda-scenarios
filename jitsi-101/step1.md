@@ -10,8 +10,10 @@ Optionally, generate strong passwords:
 Create required CONFIG directories in user home:
 `mkdir -p ~/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}`{{ execute }}
 
-Run Docker-compose up:
+Run docker-compose up:
 `docker-compose up -d`{{ execute }}
+
+If you are curious about the config file: `more docker-compose.yml`{{execute}}
 
 Access the web UI at port 8443 (note: meetings are unstable, XMPP not reachable):
 https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com

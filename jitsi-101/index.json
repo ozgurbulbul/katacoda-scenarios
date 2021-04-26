@@ -2,24 +2,12 @@
   "title": "Getting started with Jitsi 101",
   "description": "Step-by-step for bringing up a working Jitsi setup",
   "difficulty": "Beginner",
-  "time": "20 min",
+  "time": "5 min",
   "details": {
     "steps": [
       {
         "title": "Step 1",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
       }
     ],
     "intro": {
@@ -30,7 +18,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jitsi Web UI", "port": 8443}]
   },
   "backend": {
     "imageid": "ubuntu:2004"

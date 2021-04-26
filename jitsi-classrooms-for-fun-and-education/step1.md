@@ -8,7 +8,7 @@
 
 3. Fix local host
 
-`echo "127.0.0.1 [[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com" >> /etc/hosts"`{{execute}}
+`echo "127.0.0.1 [[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com" >> /etc/hosts`{{execute}}
 
 4. Run docker-compose
 

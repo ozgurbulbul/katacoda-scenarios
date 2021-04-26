@@ -4,4 +4,4 @@
 
 2. Run docker-compose
 
-`docker-compose up`{{execute}}
+`cd workadventure && docker-compose up`{{execute}}

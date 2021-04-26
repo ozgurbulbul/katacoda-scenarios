@@ -4,7 +4,7 @@
 
 2. Fix website URL in Docker compose
 
-`sed -i 's|workadventure\.localhost|[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com|g' ~/workadventure/docker-compose.yaml`{{execute}}
+`sed -i 's|^DOMAIN=.*|DOMAIN=[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com|g' ~/workadventure/contrib/docker/.env.prod.template`{{execute}}
 
 3. Fix local host
 
@@ -12,7 +12,7 @@
 
 4. Run docker-compose (~2-3 minutes)
 
-`cd ~/workadventure && DEBUG_MODE=1 docker-compose up`{{execute}}
+`cd ~/workadventure && source contrib/docker/.env.prod.template && DEBUG_MODE=1 docker-compose -f contrib/docker/docker-compose.prod.yaml up`{{execute}}
 
 5. Open a browser window to https://play.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 

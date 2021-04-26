@@ -12,7 +12,7 @@
 
 4. Run docker-compose (~2-3 minutes)
 
-`cd ~/workadventure && source contrib/docker/.env.prod.template && DEBUG_MODE=1 docker-compose -f contrib/docker/docker-compose.prod.yaml up`{{execute}}
+`cd ~/workadventure && DEBUG_MODE=1 docker-compose -f contrib/docker/docker-compose.prod.yaml --env-file contrib/docker/.env.prod.template up`{{execute}}
 
 5. Open a browser window to https://play.[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com
 

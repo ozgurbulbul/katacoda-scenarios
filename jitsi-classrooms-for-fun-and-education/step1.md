@@ -10,7 +10,7 @@
 
 `echo "127.0.0.1 [[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com" >> /etc/hosts`{{execute}}
 
-4. Run docker-compose
+4. Run docker-compose (~2-3 minutes)
 
 `cd ~/workadventure && DEBUG_MODE=1 docker-compose up`{{execute}}
 

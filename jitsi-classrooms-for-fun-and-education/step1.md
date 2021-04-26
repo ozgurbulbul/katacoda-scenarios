@@ -6,9 +6,13 @@
 
 `sed -i 's/workadventure.localhost/[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/g' ~/workadventure/docker-compose.yaml`{{execute}}
 
-3. Run docker-compose
+3. Fix local host
+
+`echo "127.0.0.1 [[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com" >> /etc/hosts"`{{execute}}
+
+4. Run docker-compose
 
 `cd ~/workadventure && DEBUG_MODE=1 docker-compose up`{{execute}}
 
-4. Open a browser window to https://play.[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
+5. Open a browser window to https://play.[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
 

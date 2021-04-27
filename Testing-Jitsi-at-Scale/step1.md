@@ -1,0 +1,22 @@
+# Prepare a Docker config
+
+Since Docker and docker-compose already come preinstalled, this step is simple:
+```
+cat > ~/docker-compose.yml << EOF
+version: "3.3"
+ services:
+   torture:
+       image: meetrix/jitsi-meet-torture
+   hub:
+       image: selenium/hub:3.141.59 # -20210422
+   node:
+       build: ./node
+       image: meetrix/jitsi-meet-torture-selenium-node
+       volumes:
+           - /dev/shm:/dev/shm
+       depends_on:
+           - hub
+       environment:
+           HUB_HOST: hub
+EOF
+```{{ execute }}

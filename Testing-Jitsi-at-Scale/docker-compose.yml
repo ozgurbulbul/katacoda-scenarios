@@ -9,6 +9,7 @@ services:
       image: meetrix/jitsi-meet-torture-selenium-node
       volumes:
         - /dev/shm:/dev/shm
+        - /tmp:/usr/share/jitsi/resources # For custom audio
       depends_on:
         - hub
       environment:

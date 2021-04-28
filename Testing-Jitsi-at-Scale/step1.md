@@ -10,4 +10,4 @@ Run docker-compose:
 
 For higher scale testing (more users), use e.g.
 
-`docker-compose up -d --scale node=2`{{execute}} => 2 browsers per container
+`docker-compose up -d --scale node=2`{{execute}} => 2 browsers per container (you can go up to ~50)

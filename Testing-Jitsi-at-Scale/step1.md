@@ -7,4 +7,7 @@ Since Docker and docker-compose already come preinstalled, this step is simple:
 Run docker-compose:
 
 `docker-compose up`{{execute}}
-`docker-compose up -d --scale node=2`{{execute}} for 2 browsers per container
+
+For higher scale testing (more users), use e.g.
+
+`docker-compose up -d --scale node=2`{{execute}} => 2 browsers per container

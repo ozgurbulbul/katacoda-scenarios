@@ -17,6 +17,6 @@ https://www.pacdv.com/sounds/people_sound_effects/party_crowd_1.wav
 https://www.pacdv.com/sounds/people_sound_effects/applause-3.wav
 
 Run the 'malleus' script, using your target Jitsi Meet instance
-`./scripts/malleus.sh --conferences=1 --participants=8 --senders=$SENDERS --audio-senders=8 --duration=300 --room-name-prefix=jitsi-scale-test --hub-url=http://hub:4444/wd/hub --instance-url=$JITSI_MEET_INSTANCE_URL`{{execute T2}}
+`./scripts/malleus.sh --conferences=1 --participants=8 --senders=$SENDERS --audio-senders=8 --duration=300 --room-name-prefix=jitsi-at-scale-test --hub-url=http://hub:4444/wd/hub --instance-url=$JITSI_MEET_INSTANCE_URL`{{execute T2}}
 
 (Note: the number of users appears to be controlled by the 'node=x' parameter when starting the container)

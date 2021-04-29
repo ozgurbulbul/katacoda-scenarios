@@ -8,7 +8,7 @@ Define target Jitsi server to connect to:
 `export JITSI_MEET_INSTANCE_URL=https://meet.jit.si/`{{execute T2}}
 `export SENDERS=2`{{execute T2}}
 
-Join a test meeting in your browser: https://meet.jit.si/jitsi-scale-test0
+Join a test meeting in your browser: https://meet.jit.si/jitsi-at-scale-test0
 
 Get some more interesting audio samples:
 `wget https://www.pacdv.com/sounds/people_sound_effects/crowd_outside_1.wav`{{execute T2}}

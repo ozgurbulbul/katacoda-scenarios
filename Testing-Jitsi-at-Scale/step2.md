@@ -2,6 +2,7 @@
 
 Open a console to 'torture' in a second terminal:
 
+`echo "Open, sesame!"`{{ execute T2 }}
 `docker-compose exec torture /bin/bash`{{ execute T2 }}
 
 Define target Jitsi server to connect to:

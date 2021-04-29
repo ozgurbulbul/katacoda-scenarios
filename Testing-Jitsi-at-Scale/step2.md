@@ -6,7 +6,7 @@ Open a console to 'torture' in a second terminal:
 
 Define target Jitsi server to connect to:
 `export JITSI_MEET_INSTANCE_URL=https://meet.jit.si/`{{execute T2}}
-`export SENDERS=2`{{execute T2}}
+`export SENDERS=3`{{execute T2}}
 
 Join a test meeting in your browser: https://meet.jit.si/jitsi-at-scale-test0
 

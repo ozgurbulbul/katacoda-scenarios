@@ -6,10 +6,10 @@ Open a console to 'torture' in a second terminal:
 `docker-compose exec torture /bin/bash`{{ execute T2 }}
 
 Define target Jitsi server to connect to:
-`export JITSI_MEET_INSTANCE_URL=https://meet.jit.si/`{{execute T2}}
+`export JITSI_MEET_INSTANCE_URL=https://beta.meet.jit.si/`{{execute T2}}
 `export SENDERS=3`{{execute T2}}
 
-Join a test meeting in your browser: https://meet.jit.si/jitsi-at-scale-test0
+Join a test meeting in your browser: https://beta.meet.jit.si/jitsi-at-scale-test0
 
 Get some more interesting audio samples:
 `wget https://www.pacdv.com/sounds/people_sound_effects/crowd_outside_1.wav -O resources/fakeAudioStream-lipsync.wav`{{execute T2}}

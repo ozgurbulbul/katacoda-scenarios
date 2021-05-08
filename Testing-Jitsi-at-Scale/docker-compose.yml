@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+  torture:
+      image: meetrix/jitsi-meet-torture
+  hub:
+      image: selenium/hub:3.141.59 # -20210422
+  node:
+      # build: ./node
+      image: meetrix/jitsi-meet-torture-selenium-node
+      volumes:
+        - /dev/shm:/dev/shm
+        # - /tmp/file.wav:/usr/share/jitsi/resources/fakeAudioStream.wav # For custom audio
+      depends_on:
+        - hub
+      environment:
+        HUB_HOST: hub

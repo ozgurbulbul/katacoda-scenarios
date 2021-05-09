@@ -27,7 +27,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "VNC", "port": 8015}],
+    "dashboards": [{"name": "IRSIM (vnc)", "href": "https://[[HOST_SUBDOMAIN]]-8015-[[KATACODA_HOST]].environments.katacoda.com/cloudtk/VNC?session=new&Tk=Irsim"}],
     "uilayout": "terminal-iframe"
   },
   "backend": {

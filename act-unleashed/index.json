@@ -25,7 +25,13 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "URL", "href": "https://www.katacoda.com"},
+        {"name": "VNC", "port": 8015},
+        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-8015-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "uilayout": "terminal-iframe"
+  },
   "backend": {
     "imageid": "ubuntu:2004"
   }

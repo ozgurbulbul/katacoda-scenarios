@@ -9,4 +9,4 @@
 `web_irsim.sh scmos30 test.sim test.al`{{ execute }}
 
 The web tab has an issue with the port being included in the URL upon redirect; try 
-https://[[HOST_SUBDOMAIN]]-8015-[[KATACODA_HOST]].environments.katacoda.com/cloudtk
+https://[[HOST_SUBDOMAIN]]-8015-[[KATACODA_HOST]].environments.katacoda.com/cloudtk/VNC?session=new&Tk=Irsim

@@ -7,4 +7,4 @@ created by [Rajit Manohar](https://csl.yale.edu/~rajit/) and team.
 Through a simple exercise, we analyse a 4-stage micropipeline control circuit as [described by Sutherland](https://dl.acm.org/doi/pdf/10.1145/63526.63532)
 and published in Communications of the ACM (1989).
 
-![Sutherland 4-stage micropipeline control](./assets/Sutherland_control_circuit.PNG)
+![Sutherland 4-stage micropipeline control](./assets/Sutherland_control_circuit.png)

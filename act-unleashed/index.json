@@ -1,8 +1,8 @@
 {
   "title": "Creating the next generation of processing power for the cloud 🌥",
-  "description": "Online draft version of Yale's Asynchronous Circuit Toolkit (ACT) for VLSI designs",
+  "description": "Online draft PoC showing Yale's Asynchronous Circuit Toolkit (ACT) for VLSI designs",
   "difficulty": "Intermediate",
-  "time": "30 min",
+  "time": "20 min",
   "details": {
     "steps": [
       {

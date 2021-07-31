@@ -14,8 +14,12 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Launching a lab",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Using the SR Linux CLI",
+        "text": "step4.md"
       }
     ],
     "intro": {

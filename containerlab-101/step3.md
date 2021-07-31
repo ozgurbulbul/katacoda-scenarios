@@ -1,6 +1,6 @@
 Deploy the lab:
 
-`containerlab deploy -t clos01.clab.yml`{{execute}}
+`containerlab deploy -t srl02.clab.yml`{{execute}}
 
 What this just did:
 * Download all the Docker images referenced in the lab topology file
@@ -12,4 +12,4 @@ We recommend that you keep your lab topology files in git, for version control p
 
 After waiting for the systems to come online, you can login to the nodes:
 
-`ssh admin@clab-clos01-leaf1`{{execute}}
+`ssh admin@clab-srl02-srl1`{{execute}}

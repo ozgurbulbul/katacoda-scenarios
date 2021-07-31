@@ -9,3 +9,7 @@ What this just did:
 * (optionally) configure each node, as provided in the lab config
 
 We recommend that you keep your lab topology files in git, for version control purposes.
+
+After waiting for the systems to come online, you can login to the nodes:
+
+`ssh admin@clab-clos01-leaf1`{{execute}}

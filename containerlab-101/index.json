@@ -1,6 +1,6 @@
 {
-  "title": "Containerlab 101",
-  "description": "Getting started with Containerlab",
+  "title": "SR Linux containerlab 101",
+  "description": "Getting started with SR Linux using Containerlab",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {

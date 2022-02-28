@@ -7,7 +7,7 @@
 
 * Prepare the topology:
 
-`netsim-tools/netlab topology.yml `{{execute}}
+`netsim-tools/netlab up `{{execute}}
 
 * Launch the lab:
 

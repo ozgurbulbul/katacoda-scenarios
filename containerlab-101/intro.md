@@ -1,1 +1,0 @@
-In this scenario, you will learn how to deploy a lab topology with [SR Linux](https://www.nokia.com/networks/products/service-router-linux-NOS/) containers using [Containerlab](https://containerlab.srlinux.dev/)🧪

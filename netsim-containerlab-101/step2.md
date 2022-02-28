@@ -1,5 +1,4 @@
 * Get a sample topology file:
-
 `wget https://raw.githubusercontent.com/ipspace/netsim-tools/master/examples/containerlab.yml`{{execute}}
 
 * Temporary solution:

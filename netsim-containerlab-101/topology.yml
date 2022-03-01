@@ -1,9 +1,9 @@
-name: 2SRL-OSPF
+name: 3SRL-OSPF
 provider: clab
 defaults:
   device: srlinux
   devices:
-          srlinux.clab.image: ghcr.io/nokia/srlinux
+          srlinux.clab.image: srlinux:latest
 
 
 addressing:
@@ -25,4 +25,3 @@ nodes: [R1, R2, R3]
 links:
   - R1-R2
   - R2-R3
-

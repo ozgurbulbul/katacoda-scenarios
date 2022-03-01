@@ -8,9 +8,8 @@
 `sudo containerlab deploy -t clab.yml`{{execute}}
 
 * (Optional) Install the Nokia ansible package:
-`ansible-galaxy collection install nokia.grpc `{{execute}}
+`ansible-galaxy collection install nokia.grpc && python3 -m pip install grpcio protobuf `{{execute}}
 
 * Create the initial configuration:
-`netsim-tools/netlab initial && python3 -m pip install grpcio protobuf
-`{{execute}}
+`netsim-tools/netlab initial `{{execute}}
 

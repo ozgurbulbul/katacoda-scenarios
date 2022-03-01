@@ -7,6 +7,9 @@
 * Launch the lab:
 `sudo containerlab deploy -t clab.yml`{{execute}}
 
+* (Optional) Install the Nokia ansible package:
+`ansible-galaxy collection install nokia.grpc `{{execute}}
+
 * Create the initial configuration:
 `netsim-tools/netlab initial `{{execute}}
 

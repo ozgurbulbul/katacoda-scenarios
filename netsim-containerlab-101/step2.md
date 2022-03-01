@@ -6,3 +6,7 @@
 
 * Launch the lab:
 `sudo containerlab deploy -t clab.yml`{{execute}}
+
+* Create the initial configuration:
+`netsim-tools/netlab initial `{{execute}}
+

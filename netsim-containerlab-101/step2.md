@@ -4,11 +4,11 @@
 * Temporary solution:
 `mv containerlab.yml topology.yml`{{execute}}
 
-* Prepare the topology:
-`netsim-tools/netlab create `{{execute}}
-
 * Replace ceos with SRLinux
 `sed -i 's/eos/srlinux/' topology.yml `{{execute}}
+
+* Prepare the topology:
+`netsim-tools/netlab create `{{execute}}
 
 * Launch the lab:
 `sudo containerlab deploy -t clab.yml`{{execute}}

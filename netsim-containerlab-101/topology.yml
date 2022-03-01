@@ -3,7 +3,7 @@ provider: clab
 defaults:
   device: srlinux
   devices:
-          srlinux.clab.image: srlinux:latest
+          srlinux.clab.image: ghcr.io/nokia/srlinux:latest
 
 
 addressing:

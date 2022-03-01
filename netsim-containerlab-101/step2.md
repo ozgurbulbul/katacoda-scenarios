@@ -11,5 +11,6 @@
 `ansible-galaxy collection install nokia.grpc `{{execute}}
 
 * Create the initial configuration:
-`netsim-tools/netlab initial `{{execute}}
+`netsim-tools/netlab initial && python3 -m pip install grpcio protobuf
+`{{execute}}
 
